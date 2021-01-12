@@ -93,3 +93,4 @@ thrift
 thrift_sasl
 unicodecsv
 zdesk
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
