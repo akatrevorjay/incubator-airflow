@@ -93,3 +93,4 @@ thrift
 thrift_sasl
 unicodecsv
 zdesk
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
