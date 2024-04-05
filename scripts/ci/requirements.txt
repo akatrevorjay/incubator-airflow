@@ -47,7 +47,7 @@ hive-thrift-py
 impyla
 ipython
 jaydebeapi
-jinja2<2.9.0
+jinja2<3.1.3
 jira
 ldap3
 lxml
@@ -93,3 +93,7 @@ thrift
 thrift_sasl
 unicodecsv
 zdesk
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
